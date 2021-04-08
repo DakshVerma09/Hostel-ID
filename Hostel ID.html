@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<body>
+    <h1>Hostel Identity Card</h1>
+    <form action="">
+        <p>
+            <label for="name">Enter your full name</label>
+            <input id="name" type="text" placeholder="Full Name">
+        </p>
+
+        <p>
+            <label for="city">Enter your city of residence</label>
+            <input type="text" id="city" placeholder="City of Residence">
+        </p>
+        <p>
+            <label for="roll">Enter you Roll Number</label>
+            <input type="number" id="roll" placeholder="Roll Number" min="102000000" max="103000000">
+        </p>
+        <p>
+            <label for="batch">Select your graduation year</label>
+            <select name="batch" id="batch">
+                <option value="">-Select-</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+        </p>
+        <div>Select your hostel:</div>
+        <p>
+            <label for="M">Hostel M</label>
+            <input type="radio" name="hostel" id="M" value="M">
+
+            <label for="FRDE">Hostel FRD/E</label>
+            <input type="radio" name="hostel" id="FRDE" value="FRDE">
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
